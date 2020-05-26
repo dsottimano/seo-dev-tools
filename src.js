@@ -135,7 +135,8 @@ seo.addCss = ()=>{
     a[rel~=nofollow] {
 	text-decoration: underline wavy red !important;
 	}
-     `
+    .shSP {max-width: none !important}';
+      `
     let head = document.head || document.getElementsByTagName('head')[0]
     let seoScriptStyle = document.createElement('style');
     seoScriptStyle.setAttribute("id", "seoScriptsMainCss");
